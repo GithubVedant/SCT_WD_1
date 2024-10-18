@@ -1,0 +1,74 @@
+/* Basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+section {
+    height: 100vh;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Navigation Menu */
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 10px 20px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+/* Hover effects */
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+/* Scroll effect - change background color when scrolled */
+.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#home {
+    background-color: #f4f4f4;
+}
+
+#about {
+    background-color: #ffcccb;
+}
+
+#services {
+    background-color: #b0e57c;
+}
+
+#contact {
+    background-color: #add8e6;
+}
